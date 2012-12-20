@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Onix Flickr Slider</string>
+
+    <!-- errors -->
+    <string name="error_internet_connection">No Internet Connection</string>
+    <string name="error_internet_empty">Type search tags</string>
+
+    <!-- main activity -->
+    <string name="main_menu_help_name">Help</string>
+    <string name="search_container_hint">Search tag...</string>
+
+    <!-- picture viewer -->
+    <string name="picture_viewer_load_dialog_text">Loading</string>
+    <string name="picture_viewer_search_dialog_text">Searching</string>
+    <string name="picture_viewer_load_dialog_title"></string>
+    <string name="picture_viewer_load_more">Load more</string>
+
+    <!-- help dialog -->
+    <string name="help_dialog_cancel_button_text">Cancel</string>
+    <string name="help_dialog_title">About</string>
+    <string name="help_dialog_top_text">This is a simple flickr viewer, designed for a demonstration Onix - ImageDownloader component.</string>
+    <string name="help_dialog_data_source">http://www.flickr.com</string>
+    <string name="help_dialog_data_source_name">Data source: </string>
+    <string name="help_dialog_powered_text">Powered by: \nOnix-Systems, LLC 2000–2012.</string>
+    <string name="help_dialog_onix_url">http://onix-systems.com</string>
+
+</resources>

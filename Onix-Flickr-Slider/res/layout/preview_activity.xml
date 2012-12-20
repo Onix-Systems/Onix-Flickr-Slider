@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.onix.flickrslider.components.CustomViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/share_button_selector" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="35dp"
+        android:layout_height="33dp"
+        android:layout_alignBaseline="@+id/share_button"
+        android:layout_alignBottom="@+id/share_button"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/save_button_selector" />
+
+</RelativeLayout>

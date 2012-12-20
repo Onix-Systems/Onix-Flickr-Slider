@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/frame_empty"
+        android:duration="600"/>
+    <item
+        android:drawable="@drawable/frame_first"
+        android:duration="400"/>
+    <item
+        android:drawable="@drawable/frame_second"
+        android:duration="400"/>
+    <item
+        android:drawable="@drawable/frame_last"
+        android:duration="400"/>
+
+</animation-list>
